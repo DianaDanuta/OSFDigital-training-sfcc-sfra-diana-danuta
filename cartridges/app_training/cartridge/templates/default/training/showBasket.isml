@@ -1,0 +1,5 @@
+<h1>
+Basket items are :</h1>
+<br/><isloop items="${pdict.Basket.allProductLineItems}" var="productLineItem">
+    ${productLineItem.product.name}<br/>
+</isloop>

@@ -1,0 +1,4 @@
+
+<isdecorate template="common/layout/page">
+${pdict.decoratorRead}
+</isdecorate>

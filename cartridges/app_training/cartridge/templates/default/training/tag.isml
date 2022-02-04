@@ -1,0 +1,4 @@
+<ismodule template="/cartridges/app_training/cartridge/templates/default/training/render.isml"
+	name="Name render"
+	attribute="viewData"
+/>

@@ -1,0 +1,10 @@
+<isset name="sessionVar" value="${1}" scope="session" />
+<isset name="sessionVar" value="${1}" scope="request" />
+<isset name="sessionVar" value="${1}" scope="page" />
+${session.custom.sessionVar}
+${request.custom.sessionVar}
+${page.custom.sessionVar}
+${pdict.CureentRequest.custom.sessionVar}
+${sessionVar}
+${pdict.viewData.getLongDescripton('Hello') = false}
+"${request.custom.requestVar + 1}"
