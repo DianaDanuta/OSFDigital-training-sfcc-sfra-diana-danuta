@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sort xmlns="http://www.demandware.com/xml/impex/sort/2009-05-15">
+    <sorting-rule rule-id="Einstein Automatic Sort for Revenue">
+        <description>Sort by Einstein determined attributes to optimize for revenue</description>
+    </sorting-rule>
+
+</sort>

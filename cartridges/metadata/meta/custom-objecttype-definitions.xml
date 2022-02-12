@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.demandware.com/xml/impex/metadata/2006-10-31">
+    <custom-type type-id="ABCD45358899">
+        <display-name xml:lang="x-default">Unique Product ABCD</display-name>
+        <staging-mode>source-to-target</staging-mode>
+        <storage-scope>organization</storage-scope>
+        <key-definition attribute-id="ABCD45358899">
+            <display-name xml:lang="x-default">Unique ABCD</display-name>
+            <type>string</type>
+            <min-length>0</min-length>
+        </key-definition>
+        <group-definitions>
+            <attribute-group group-id="Unique">
+                <display-name xml:lang="x-default">Unique</display-name>
+                <attribute attribute-id="ABCD45358899"/>
+            </attribute-group>
+        </group-definitions>
+    </custom-type>
+
+    <custom-type type-id="NewsletterSubscription">
+        <display-name xml:lang="x-default">New table 1</display-name>
+        <staging-mode>no-staging</staging-mode>
+        <storage-scope>site</storage-scope>
+        <key-definition attribute-id="email">
+            <type>string</type>
+            <min-length>0</min-length>
+        </key-definition>
+        <attribute-definitions>
+            <attribute-definition attribute-id="firstName">
+                <display-name xml:lang="x-default">First Name</display-name>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="lastName">
+                <display-name xml:lang="x-default">Last Name</display-name>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+        </attribute-definitions>
+        <group-definitions>
+            <attribute-group group-id="NewsletterSubscription Custom Object">
+                <display-name xml:lang="x-default">NewsletterSubscription Custom Object</display-name>
+                <attribute attribute-id="firstName"/>
+                <attribute attribute-id="email"/>
+                <attribute attribute-id="lastName"/>
+            </attribute-group>
+        </group-definitions>
+    </custom-type>
+
+</metadata>

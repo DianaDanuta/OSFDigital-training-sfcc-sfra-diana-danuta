@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users xmlns="http://www.demandware.com/xml/impex/user/2007-09-05">
+    <user login="danuta.diana01@gmail.com" enabled-flag="true">
+        <credentials>
+            <external-id>016b86aa-89d4-4a6c-80d3-2d7ba89c04d0</external-id>
+        </credentials>
+        <profile>
+            <first-name>Diana</first-name>
+            <last-name>Danuta</last-name>
+            <email>danuta.diana01@gmail.com</email>
+            <preferred-data-locale>none</preferred-data-locale>
+        </profile>
+    </user>
+
+</users>
